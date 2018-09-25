@@ -8,15 +8,18 @@ import org.springframework.web.bind.annotation.RestController;
 import cn.itcast.microservice.order.pojo.Order;
 import cn.itcast.microservice.order.service.OrderService;
 
+/**
+ * @author win10
+ */
 @RestController
 public class OrderController {
 
-	@Autowired
-	private OrderService orderService;
+    @Autowired
+    private OrderService orderService;
 
-	@GetMapping(value = "order/{orderId}")
-	public Order queryOrderById(@PathVariable("orderId") String orderId) {
-		return this.orderService.queryOrderById(orderId);
-	}
+    @GetMapping(value = "order/{orderId}")
+    public Order queryOrderById(@PathVariable("orderId") String orderId) {
+        return this.orderService.queryOrderById(orderId);
+    }
 
 }

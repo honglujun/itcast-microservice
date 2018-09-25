@@ -1,5 +1,8 @@
 package cn.itcast.microservice.order.pojo;
 
+/**
+ * @author win10
+ */
 public class OrderDetail {
 
 	private String orderId;

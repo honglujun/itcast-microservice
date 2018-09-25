@@ -5,8 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
+/**
+ * @author win10
+ * @EnableConfigServer 开启配置服务
+ */
 @EnableDiscoveryClient
-@EnableConfigServer //开启配置服务
+@EnableConfigServer
 @SpringBootApplication
 public class ConfigApplication {
 

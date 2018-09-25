@@ -3,6 +3,9 @@ package cn.itcast.microservice.order.pojo;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @author win10
+ */
 public class Order {
 
 	private String orderId;
