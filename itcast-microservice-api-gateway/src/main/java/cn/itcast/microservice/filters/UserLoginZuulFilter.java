@@ -20,8 +20,12 @@ public class UserLoginZuulFilter extends ZuulFilter {
         return true;
     }
 
+    /**
+     * 编写业务逻辑
+     * @return
+     */
     @Override
-    public Object run() { //编写业务逻辑
+    public Object run() {
         RequestContext requestContext = RequestContext.getCurrentContext();
         HttpServletRequest request = requestContext.getRequest();
         String token = request.getParameter("token");
