@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.itcast.microservice</groupId>
+    <version> 0.0.1</version>
+    <artifactId>itcast-microservice</artifactId>
+    <packaging>pom</packaging>
+
+
+    <properties>
+
+    </properties>
+
+
+
+    <modules>
+        <module>itcast-microservice-api-gateway</module>
+        <module>itcast-microservice-config-server</module>
+        <module>itcast-microservice-eureka</module>
+        <module>itcast-microservice-item</module>
+        <module>itcast-microservice-order</module>
+    </modules>
+
+</project>
